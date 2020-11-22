@@ -52,13 +52,15 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+   flex: 1,
    backgroundColor:'#fff',
   },
   content:{
     padding:40,
+    flex:1
   },
   list:{
     marginTop:20,
+    flex:1,
   }
 });
